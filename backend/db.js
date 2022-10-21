@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = "mongodb+srv://cherr:Whatamidoing1231@cluster0.cbveo.mongodb.net/knowhow?retryWrites=true&w=majority"
+const url = "YOUR DATABASE URL"
 
 module.exports.connect = () => {
     mongoose.connect(url)
